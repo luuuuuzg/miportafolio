@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portafolio - Luz Eneyda</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <header>
+    <div class="container header-content">
+      <h1 class="logo">//luuz_hg🪪</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#acerca">Acerca de mí</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#estudios">Estudios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="inicio" class="full-screen">
+    <div class="slider-fondo">
+      <img src="inicio.jpg" alt="Imagen 1" class="slide active">
+      <img src="inicio2.jpg" alt="Imagen 2" class="slide">
+      <img src="inicio3.jpg" alt="Imagen 3" class="slide">
+    </div>
+    <div class="centered-text">
+      <h2>¡Hola 🖐️, soy Luz Eneyda!</h2>
+      <p>Lic. en Informática Administrativa</p>
+      <a href="#acerca" class="btn-principal">Conóceme</a>
+    </div>
+  </section>
+
+  <section id="acerca" class="seccion bg-light">
+    <div class="container acerca-flex">
+      <div class="acerca-imagen">
+        <img src="luz.jpg" alt="Luz Eneyda" />
+      </div>
+      <div class="acerca-texto">
+        <h2>Sobre mí 👩‍💻</h2>
+        <p>Soy Licenciada en Informática Administrativa y una apasionada del desarrollo profesional, la organización y la mejora continua.</p>
+        <p>Me considero una persona comprometida, proactiva y con una gran disposición para enfrentar nuevos retos.</p>
+        <a href="#habilidades" class="btn-habilidades">Ver habilidades</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="experiencia" class="seccion">
+    <div class="container">
+      <h2>Experiencia 👩</h2>
+      <div class="experiencia-grid">
+        <div class="card">
+          <h3>Proyectos Académicos</h3>
+          <p>UICSLP (2021 - 2025)</p>
+          <p>Automatización de procesos, desarrollo web básico, bases de datos.</p>
+        </div>
+        <div class="card">
+          <h3>Servicio Social - Becas Benito Juárez</h3>
+          <p>Agosto - Febrero (2024 - 2025)</p>
+          <p>Organización de expedientes y captura de datos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="habilidades" class="seccion">
+    <div class="container">
+      <h2>Habilidades 🖥️</h2>
+      <div class="habilidades-grid">
+        <div class="habilidad-card"><i class="fas fa-calendar-alt"></i><p>Gestión del tiempo</p></div>
+        <div class="habilidad-card"><i class="fas fa-users"></i><p>Trabajo en equipo</p></div>
+        <div class="habilidad-card"><i class="fas fa-desktop"></i><p>Herramientas ofimáticas</p></div>
+        <div class="habilidad-card"><i class="fas fa-code"></i><p>Desarrollo web básico</p></div>
+        <div class="habilidad-card"><i class="fas fa-database"></i><p>Bases de datos</p></div>
+        <div class="habilidad-card"><i class="fas fa-comments"></i><p>Comunicación efectiva</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="estudios" class="seccion bg-light">
+    <div class="container">
+      <h2>Estudios 📚</h2>
+      <div class="card">
+        <p><strong>Capacitación informática</strong></p>
+        <p>Colegio de Bachilleres Plantel 14 - 2018 a 2021</p>
+      </div>
+      <div class="card">
+        <p><strong>Lic. Informática Administrativa</strong></p>
+        <p>Universidad Intercultural de S.L.P - 2021 - 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contacto" class="seccion contacto-seccion">
+    <div class="container contacto-contenido">
+      <div class="contacto-info">
+        <h2>Contacto 📍</h2>
+        <p>Estoy disponible para colaborar o responder tus preguntas.</p>
+        <p><strong>Email:</strong> <a href="mailto:hdzz71439@gmail.com">hdzz71439@gmail.com</a></p>
+        <p><strong>Teléfono:</strong> 81-8689-2895</p>
+        <a href="mailto:hdzz71439@gmail.com" class="btn-contacto">Enviar mensaje</a>
+      </div>
+      <div class="redes-sociales">
+        <a href="https://wa.me/528186892895" target="_blank" class="icono-social" title="WhatsApp">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp">
+        </a>
+        <a href="https://www.facebook.com/share/1CYE8LEQfT/?mibextid=wwXIfr" target="_blank" class="icono-social" title="Facebook">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/luuz_hg" target="_blank" class="icono-social" title="Instagram">
+          <img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Luz Eneyda. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slider-fondo .slide");
+
+    function showNextSlide() {
+      slides[currentSlide].classList.remove("active");
+      currentSlide = (currentSlide + 1) % slides.length;
+      slides[currentSlide].classList.add("active");
+    }
+
+    setInterval(showNextSlide, 5000);
+  </script>
+
+</body>
+</html>
